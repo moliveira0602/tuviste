@@ -1,0 +1,53 @@
+
+export const translations = {
+  nav: {
+    home: { 'pt-PT': 'Início', 'en-US': 'Home' },
+    about: { 'pt-PT': 'Sobre', 'en-US': 'About' },
+    news: { 'pt-PT': 'Notícias', 'en-US': 'News' },
+    contact: { 'pt-PT': 'Contacto', 'en-US': 'Contact' },
+    adminPanel: { 'pt-PT': 'Painel Admin', 'en-US': 'Admin Panel' },
+    login: { 'pt-PT': 'Login', 'en-US': 'Login' },
+  },
+  footer: {
+    tagline: { 'pt-PT': 'Sempre atualizado', 'en-US': 'Always up to date' },
+    description: { 'pt-PT': 'A sua fonte confiável de notícias em tempo real. Mantemos-no informado sobre os acontecimentos mais importantes em Portugal e no mundo.', 'en-US': 'Your reliable source for real-time news. We keep you informed about the most important events in Portugal and around the world.' },
+    navigation: { 'pt-PT': 'Navegação', 'en-US': 'Navigation' },
+    legalPrivacy: { 'pt-PT': 'Legal & Privacidade', 'en-US': 'Legal & Privacy' },
+    privacyPolicy: { 'pt-PT': 'Política de Privacidade', 'en-US': 'Privacy Policy' },
+    cookieManagement: { 'pt-PT': 'Gestão de Cookies', 'en-US': 'Cookie Management' },
+    contactUs: { 'pt-PT': 'Fale Connosco', 'en-US': 'Contact Us' },
+    contactTitle: { 'pt-PT': 'Contacto', 'en-US': 'Contact' },
+    copyright: { 'pt-PT': '© 2024 Tuviste?. Todos os direitos reservados. Conteúdo original baseado em fontes públicas.', 'en-US': '© 2024 Tuviste?. All rights reserved. Original content based on public sources.' },
+  },
+  home: {
+    mostRead: { 'pt-PT': 'Mais Lidas', 'en-US': 'Most Read' },
+    last24h: { 'pt-PT': 'Últimas 24 Horas', 'en-US': 'Last 24 Hours' },
+    editorsPicks: { 'pt-PT': 'Seleção do Editor', 'en-US': "Editor's Picks" },
+    trendingTopics: { 'pt-PT': 'Tópicos do Momento', 'en-US': 'Trending Topics', },
+    seeMore: { 'pt-PT': 'Ver mais', 'en-US': 'See more' },
+    noNewsFound: { 'pt-PT': 'Nenhuma Notícia Encontrada', 'en-US': 'No News Found' },
+    noNewsLast30Days: { 'pt-PT': 'Não há artigos publicados dos últimos 30 dias.', 'en-US': 'No articles published in the last 30 days.' },
+  },
+  categories: {
+    politica: { 'pt-PT': 'Política', 'en-US': 'Politics' },
+    tecnologia: { 'pt-PT': 'Tecnologia', 'en-US': 'Technology' },
+    desporto: { 'pt-PT': 'Desporto', 'en-US': 'Sports' },
+    economia: { 'pt-PT': 'Economia', 'en-US': 'Economy' },
+    cultura: { 'pt-PT': 'Cultura', 'en-US': 'Culture' },
+    saude: { 'pt-PT': 'Saúde', 'en-US': 'Health' },
+    ciencia: { 'pt-PT': 'Ciência', 'en-US': 'Science' },
+    mundo: { 'pt-PT': 'Mundo', 'en-US': 'World' },
+    local: { 'pt-PT': 'Local', 'en-US': 'Local' },
+    opiniao: { 'pt-PT': 'Opinião', 'en-US': 'Opinion' },
+  },
+  contactPage: {
+    title: { 'pt-PT': 'Fale Connosco', 'en-US': 'Contact Us' },
+    subtitle: { 'pt-PT': 'Tem alguma questão, sugestão ou proposta? Adoraríamos ouvir de si', 'en-US': 'Have a question, suggestion, or proposal? We would love to hear from you' },
+    formTitle: { 'pt-PT': 'Envie uma Mensagem', 'en-US': 'Send a Message' },
+    nameLabel: { 'pt-PT': 'Nome Completo', 'en-US': 'Full Name' },
+    messageLabel: { 'pt-PT': 'Mensagem', 'en-US': 'Message' },
+    captchaLabel: { 'pt-PT': 'Prova de que é humano:', 'en-US': 'Proof that you are human:' },
+    consentLabel: { 'pt-PT': "Aceito que os meus dados pessoais sejam processados de acordo com a nossa Política de Privacidade e consinto o contacto via email para resposta à minha mensagem. *", 'en-US': "I accept that my personal data will be processed according to our Privacy Policy and I consent to be contacted by email in response to my message. *" },
+    submitButton: { 'pt-PT': 'Enviar Mensagem', 'en-US': 'Send Message' },
+  }
+};
