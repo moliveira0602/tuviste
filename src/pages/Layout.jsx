@@ -5,12 +5,12 @@ import { Link, useLocation } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import { User } from "@/api/entities";
 import { Newspaper, Home, Settings, PlusCircle, BarChart3, Mail, MapPin, Phone, Globe, Shield, LogIn, LogOut, Info, Contact, UserCircle, Search } from "lucide-react";
-import HeaderWeather from "./components/weather/HeaderWeather";
-import WeatherSlider from "./components/weather/WeatherSlider";
-import BreakingNews from "./components/news/BreakingNews"; // Added import for BreakingNews
-import SearchModal from "./components/search/SearchModal";
-import { Button } from "./components/ui/button";
-import { LanguageProvider, useLanguage } from "./components/context/LanguageContext";
+import HeaderWeather from "../components/weather/HeaderWeather";
+import WeatherSlider from "../components/weather/WeatherSlider";
+import BreakingNews from "../components/news/BreakingNews"; // Added import for BreakingNews
+import SearchModal from "../components/search/SearchModal";
+import { Button } from "../components/ui/button";
+import { LanguageProvider, useLanguage } from "../components/context/LanguageContext";
 
 // Componente de topo para clima e idioma
 const TopBar = () => {
